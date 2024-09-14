@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of Onam</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to bottom, skyblue, #FFD700);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin-top: 20px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeIn 1.5s ease-in-out forwards;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+            color: #555;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #444;
+            margin: 0 10%;
+            text-align: justify;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeIn 1.5s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+
+        ul {
+            padding: 0;
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            list-style-type: none;
+            padding: 15px 30px;
+            margin: 0 10px;
+            background-color: dodgerblue;
+            border-radius: 25px;
+            font-size: 18px;
+            transition: all 0.4s ease-in-out;
+        }
+
+        li:hover {
+            background-color: #FFD700;
+            transform: scale(1.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #333;
+        }
+
+        .home {
+            width: 100%;
+            height: 600px;
+            background-image: url('/Images/bot.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        #forimg img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.4s ease-in-out;
+        }
+
+        #forimg img:hover {
+            transform: scale(1.05);
+        }
+
+        #onam, #myth, #how, #Cultural, #OnamAroundTheWorld {
+            padding: 50px 0;
+        }
+
+        .cla {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        /* Animation for smooth entrance */
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Section transitions */
+        section {
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInSection 1s ease-in-out forwards;
+            animation-delay: 0.7s;
+        }
+
+        @keyframes fadeInSection {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The Story of Onam: A Celebration of Kerala’s Rich Heritage</h1>
+
+    <ul>
+        <li><a href="#onam">What is Onam?</a></li>
+        <li><a href="#myth">The Legend of King Mahabali</a></li>
+        <li><a href="#how">How Onam is Celebrated</a></li>
+        <li><a href="#Cultural">The Cultural Significance of Onam</a></li>
+        <li><a href="#OnamAroundTheWorld">Onam Around the World</a></li>
+    </ul>
+
+    <div class="home"></div>
+
+    <section id="onam">
+    <center> <h2>What is Onam?</h2>
+        <h3>Onam: Kerala’s Grand Harvest Festival</h3>
+        <div id="forimg">
+            <img src="/Images/pookalam.png" alt="Pookalam Image">
+        </div></center>
+        <p>Onam is the annual harvest festival of Kerala, celebrated with grandeur and enthusiasm by Malayalees around the world. It marks the homecoming of the legendary King Mahabali, whose reign is remembered as a golden age of peace and prosperity. The festival, which falls in the Malayalam month of Chingam (August-September), is marked by various cultural events, floral decorations, and feasts.</p>
+    </section>
+
+    <section id="myth">
+    <center><h2>The Mythological Legend of King Mahabali</h2>
+        <div id="forimg">
+            <img src="/Images/Vaman.jpg" alt="King Mahabali Image">
+        </div></center>
+        <p>The story of Onam centers around the legendary King Mahabali, an Asura king known for his generosity. According to Hindu mythology, Mahabali’s rule was so perfect that the gods grew jealous and sent Lord Vishnu in the form of Vamana, a dwarf Brahmin, to test his humility. Despite being tricked into giving away his kingdom, Mahabali was granted permission to visit his people once a year, and Onam commemorates his annual return.</p>
+    </section>
+
+    <section id="how">
+        <h2>How Onam is Celebrated</h2>
+        |<center><div id="forimg">
+            <img src="/Images/sadhya.png" alt="Onam Sadya">
+        </div></center>
+        <p>Onam is a ten-day festival filled with various traditional activities. The grand feast, known as Onam Sadya, is an integral part of the celebration, consisting of a variety of vegetarian dishes served on a banana leaf. The festival also includes cultural performances like Kathakali, Pulikali (tiger dance), boat races, and traditional games. The creation of intricate Pookalams in front of homes and temples is another significant custom.</p>
+    </section>
+
+    <section id="Cultural">
+        <h2>The Cultural Significance of Onam</h2>
+        <center><div id="forimg">
+            <img src="/Images/kathakali.png" alt="Kathakali">
+        </div></center>
+        <p>Beyond its mythological and religious roots, Onam also showcases Kerala’s vibrant culture. The festival fosters a spirit of unity, with people of all religions and communities participating in the celebrations. It is a time when the rich traditions, art forms, and food of Kerala are on full display, making Onam not only a religious festival but a cultural one that strengthens the bond among its people.</p>
+    </section>
+
+    <section id="OnamAroundTheWorld">
+        <h2>Onam Around the World</h2>
+        <div class="cla">
+            <img src="/Images/bot2.png" alt="Onam Around the World">
+            <p>Onam is not limited to Kerala alone. With a large Malayalee diaspora, the festival is celebrated worldwide. From the Middle East to North America, Malayalees host community gatherings, complete with Pookalam competitions, cultural performances, and Onam Sadya feasts, keeping the essence of Onam alive no matter where they are.</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2024 The Story of Onam. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
